@@ -1,16 +1,21 @@
 .message {
+    display: flex;
+    justify-content: end;
 
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
 }
 
 .imageAndText img {
-
+    width: 60px;
 }
 
 .text {
+
 
 }
 
@@ -19,11 +24,13 @@
 }
 
 .name {
-
+    display: flex;
+    justify-content: end;
+    margin: 10px;
 }
 
 .messageText {
-
+    margin: 10px;
 }
 
 .time {

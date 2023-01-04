@@ -1,5 +1,8 @@
 .sendForm {
-
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 10px;
+    margin-top: 10px;
 }
 
 .textarea {

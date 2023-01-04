@@ -1,31 +1,37 @@
 .friendMessage {
-
-}
-
-.friendImageAndText {
-
-}
-
-.friendImageAndText img {
-
-}
-
-.friendText {
-
-}
-
-.friendText:after {
-
-}
-
-.friendName {
-
-}
-
-.friendMessageText {
-
-}
-
-.friendTime {
-
-}
+    display: flex;
+        flex-direction: row-reverse;
+    justify-content: start;
+    
+    }
+    
+    .friendImageAndText {
+    display: flex;
+    }
+    
+    .friendImageAndText img {
+        width: 60px;
+    
+    }
+    
+    .friendText {
+    
+    }
+    
+    .friendText:after {
+    
+    }
+    
+    .friendName {
+        margin: 10px;
+    
+    }
+    
+    .friendMessageText {
+        margin: 10px;
+    
+    }
+    
+    .friendTime {
+    
+    }
